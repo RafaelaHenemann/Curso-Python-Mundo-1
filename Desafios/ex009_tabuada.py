@@ -1,3 +1,4 @@
+# Faça um programa que leia um número inteiro qualquer e mostre sua tabuada.
 num = int(input('Digite um número para ver sua tabuada: '))
 print('-' * 12)
 print('{} x {:2} = {}'.format(num, 1, num*1))
@@ -11,3 +12,5 @@ print('{} x {:2} = {}'.format(num, 8, num*8))
 print('{} x {:2} = {}'.format(num, 9, num*9))
 print('{} x {:2} = {}'.format(num, 10, num*10))
 print('-' * 12)
+# O código das linhas 3 e 14 insere linhas no terminal;
+# O :2 nas linhas da tabuada definem dois dígitos para que todas as linhas fiquem alinhadas;
