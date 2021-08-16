@@ -1,3 +1,5 @@
+# Crie um programa que leia o nome completo de uma pessoa e mostre: o nome com todas as letras maiúsculas e minúsculas, quantas letras ao todo (sem considerar espaços), quantas letras tem o primeiro nome. 
+
 nome = str(input('Digite seu nome completo: ')).strip()
 print('Analisando seu nome...')
 print('Seu nome em maiúsculas é {}'.format(nome.upper()))
