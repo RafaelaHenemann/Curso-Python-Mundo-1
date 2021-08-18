@@ -1,3 +1,5 @@
+# Crie um programa que leia um número inteiro e mostre na tela se ele é PAR ou ÍMPAR.
+
 número = int(input('\033[35mMe diga um número qualquer: '))
 resultado = número % 2
 if resultado == 0:
